@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="utf-8">
+        <title>Studying</title>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css" class="rel">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+        <header>
+                <!-- NavBar Start  -->
+                <nav class="navbar ">
+                        <div class=" nav container-fluid">
+                                <span id="timer" class="navbar-brand mb-0 h1"> Nav </span>
+                        </div>
+                </nav>
+                <!-- Navbar End -->
+        </header>
+        <!-- Heading end -->
+
+        <!-- Ready button Layer/introduction Starts -->
+        <section class=" main container text-center">
+
+                <div class="startBox row">
+                        <div class="col-12">
+                                <p>Welcome To IQ Test When u are Ready Press The button </p>
+                        </div>
+                </div>
+                <div class="row">
+                        <div class="col-12">
+                                <button id="countDownButton" class="btn btn-primary" onclick="startTimer()"> Start
+                                        IQ</button>
+                        </div>
+                </div>
+        </section><!-- Ready button Layer/introduction Ends -->
+        <!-- Floating Timer Start's Here -->
+        <div id="countDown" class="floatingTimer fixed-bottom">
+                <p class="count">
+                        <span id="time"></span>
+                </p>
+        </div>
+        <!-- Floating Timer End's Here -->
+        <!-- Question Section begins -->
+        <section class="examSection">
+
+                <div class="row">
+                        <section class="containe col-6">
+                                <div class="questionSection col-12"></div>
+                        </section>
+                        <!-- Question Section End's -->
+                        <!-- Claculation Section Starts's -->
+
+                        <section class="calculationSection col-6 ">
+
+                                <div class="calculationBox col-12">
+                                        <div class="row">
+                                                <div class="Contain col-9">
+                                                                
+                                                                <div class="loading-dots">
+                                                                        <span class="calculationPar "> Calculation Of yourAnswer</span>  
+                                                                        <div class="dot"></div>
+                                                                        <div class="dot"></div>
+                                                                        <div class="dot"></div>
+                                                                </div>
+                                                </div>
+                                                <span class="CP col-3"></span>
+                                              
+                                        </div>
+                                </div>
+
+                        </section>
+                </div>
+        </section>
+
+
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/plugin.js"></script>
+        </body>
+
+</html>
